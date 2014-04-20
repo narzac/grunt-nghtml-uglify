@@ -3,7 +3,7 @@
 > Grunt task for [nghtml-uglify](https://github.com/narzac/nghtml-uglify/)
 
 * Issues with the output should be reported to
-  [issue tracker](https://github.com/narzac/nghtml-uglify/issues).*
+  [issue tracker](https://github.com/narzac/nghtml-uglify/issues).
 
 ## Getting Started
 
@@ -74,16 +74,20 @@ as an example usage
 Type: `String`
 Default: 'data-'
 
-This config exist in case of a possible XHTML support in future release, you may skip it safely
-if you use HTML5.
+This config exist in case of a possible XHTML support in future release, you may safelyskip it
+if you are already using HTML5.
 
 #### directives
 
 Type: `String`
-Default: '', Note that you should provide one, see an
+Default: ''
+
+* Note that you should provide one, see an
 [example](https://github.com/narzac/grunt-nghtml-uglify/blob/master/configs/directives.json)
 
-Path to a json file which consist of angular and custom directives used.
+Path to a json file which contains the angular and custom directives that are being used.
+In future, we may parse javascript and get the directives automatically. Yet for the time being
+adduming you use grunt-html-validation, you will know which directives to add to the directives.json
 
 
 ## License

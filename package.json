@@ -1,54 +1,54 @@
 {
-  "name": "grunt-nghtml-uglify",
-  "version": "0.1.0",
-  "license": "MIT",
-  "description": "Grunt task to uglify HTML files mixed with AngularJS directives to make them valid HTML5",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/narzac/grunt-nghtml-uglify.git"
-  },
-  "author": {
-    "name": "Ahmet Yesil",
-    "email": "narzac@gmail.com",
-    "url": "http://narzac.me"
-  },
-  "engines": {
-    "node": ">=0.10.6"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "main": "Gruntfile.js",
-  "files": [
-    "tasks"
-  ],
-  "keywords": [
-    "grunt plugin",
-    "gruntplugin",
-    "html5",
-    "angular",
-    "angularjs",
-    "uglify",
-    "uglifier",
-    "nghtml",
-    "nghtml-uglify",
-    "html-uglify"
-  ],
-  "dependencies": {
-    "chalk": "~0.4.0",
-    "nghtml-uglify": "~0.1.1"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-contrib-htmlmin": "~0.2.0",
-    "grunt-prettify": "~0.3.4",
-    "grunt-html-validation": "~0.1.15",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.8.0",
-    "jshint-stylish": "~0.1.5",
-    "grunt-jscs-checker": "~0.4.1"
-  },
-  "peerDependencies": {
-    "grunt": ">=0.4.2"
-  }
+    "name": "grunt-nghtml-uglify",
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Grunt task to uglify HTML files mixed with AngularJS directives to make them valid HTML5",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/narzac/grunt-nghtml-uglify.git"
+    },
+    "author": {
+        "name": "Ahmet Yesil",
+        "email": "narzac@gmail.com",
+        "url": "http://narzac.me"
+    },
+    "engines": {
+        "node": ">=0.10.6"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "main": "Gruntfile.js",
+    "files": [
+        "tasks"
+    ],
+    "keywords": [
+        "grunt plugin",
+        "gruntplugin",
+        "html5",
+        "angular",
+        "angularjs",
+        "uglify",
+        "uglifier",
+        "nghtml",
+        "nghtml-uglify",
+        "html-uglify"
+    ],
+    "dependencies": {
+        "chalk": "~0.4.0",
+        "nghtml-uglify": "~0.1.1"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-htmlmin": "~0.2.0",
+        "grunt-prettify": "~0.3.4",
+        "grunt-html-validation": "~0.1.15",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-jshint": "~0.8.0",
+        "jshint-stylish": "~0.1.5",
+        "grunt-jscs-checker": "~0.4.1"
+    },
+    "peerDependencies": {
+        "grunt": ">=0.4.2"
+    }
 }
