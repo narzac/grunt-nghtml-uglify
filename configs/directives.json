@@ -1,0 +1,17 @@
+{
+    "tags": [
+        "tabset",
+        "tab"
+    ],
+    "attributes": [
+        "ngApp",
+        "ngController",
+        "ngShow",
+        "ngHide",
+        "ngInit",
+        "tabset",
+        "tab",
+        "tabWidth",
+        "tabOffset"
+    ]
+}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>My title </title>
+    </head>
+    <body ng-app="myApp">
+        <div ng-controller="MyController">
+            <tabset ng-init="initializedVal">
+                <tab ng-show="showIt"> First Tab </tab>
+                <tab> Second Tab </tab>
+                <tab tab-offset tab-width="1" > Tab 1 </tab>
+                <tab tab-offset="2"> Tab 2 </tab>
+                <tab tab-offset="3" tab-width="3">Tab 3</tab>
+                <tab tab-offset="4" tab-width="4" >Tab 4</tab>
+                <div  data-tab tab-width="5">Tab 5</div>
+                <tab tab-width ng-hide="hideMe"></tab>
+            </tabset>
+        </div>
+    </body>
+</html>
