@@ -1,18 +1,22 @@
 <html>
     <head>
-        <title>My title </title>
+        <title>My title</title>
     </head>
     <body ng-app="myApp">
         <div ng-controller="MyController">
-            <tabset ng-init="initializedVal">
-                <tab ng-show="showIt"> First Tab </tab>
-                <tab> Second Tab </tab>
-                <tab tab-offset tab-width="1" > Tab 1 </tab>
-                <tab tab-offset="2"> Tab 2 </tab>
-                <tab tab-offset="3" tab-width="3">Tab 3</tab>
-                <tab tab-offset="4" tab-width="4" >Tab 4</tab>
-                <div  data-tab tab-width="5">Tab 5</div>
-                <tab tab-width ng-hide="hideMe"></tab>
+            <tabset ng-show="showIt" ng-init="initializedVal1">
+                <tab tab-width="1" tab-offset="1">Tab 1.1</tab>
+                <tab tab-width="2" tab-offset="1">Tab 1.2</tab>
+                <tab tab-width="3" tab-offset="1">Tab 1.3</tab>
+                <tab tab-width="4" tab-offset="1">Tab 1.4</tab>
+                <tab tab-width="5" tab-offset="1">Tab 1.5</tab>
+            </tabset>
+            <tabset ng-hide="hideIt" ng-init="initializedVal2">
+                <tab tab-width="1"  tab-offset="2">Tab 2.1</tab>
+                <tab tab-width="2"  tab-offset="2">Tab 2.2</tab>
+                <tab tab-width="3"  tab-offset="2">Tab 2.3</tab>
+                <tab tab-width="4"  tab-offset="2">Tab 2.4</tab>
+                <tab tab-width="5"  tab-offset="2">Tab 2.5</tab>
             </tabset>
         </div>
     </body>

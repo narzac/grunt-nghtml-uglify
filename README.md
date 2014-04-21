@@ -5,6 +5,8 @@
 * Issues with the output should be reported to
   [issue tracker](https://github.com/narzac/nghtml-uglify/issues).
 
+![screenshot](screenshot.png)
+
 ## Getting Started
 
 If you haven't used [grunt](http://gruntjs.com/) before, be sure to check out the
